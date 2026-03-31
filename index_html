@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlogChece</title>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>BlogChece</h1>
+    <nav>
+      <a href="#">Home</a> | 
+      <a href="#">Artikel</a> | 
+      <a href="#">Tentang</a> | 
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- ARTIKEL 1 -->
+    <article>
+      <header>
+        <h2>Pentingnya Me Time di Tengah Kesibukan</h2>
+        <p><i>Diposting di BlogChece — 30 Maret 2026</i></p>
+      </header>
+      <p>Di tengah jadwal kuliah dan tugas yang padat, meluangkan waktu untuk diri sendiri itu penting banget. Me time bisa berupa nonton film, dengerin musik, atau sekadar rebahan. Waktu istirahat yang cukup bantu kita jaga keseimbangan antara akademik sama kesehatan mental.</p>
+    </article>
+
+    <!-- ARTIKEL 2 -->
+    <article>
+      <header>
+        <h2>Fase Rajin yang Datang Setiap 2 Minggu Sekali</h2>
+        <p><i>Diposting di BlogChece — 28 Maret 2026</i></p>
+      </header>
+      <p>Ada masa tiba-tiba pengen jadi manusia super produktif. Download aplikasi to-do list, nonton video study motivation, beli sticky notes warna-warni. Seminggu kemudian? Aplikasinya masih ada, tapi dibuka aja engga. Fase rajin ini datang… lalu pergi… lalu datang lagi.</p>
+    </article>
+
+    <!-- ARTIKEL 3 -->
+    <article>
+      <header>
+        <h2>Pentingnya Personal Knowledge Management (PKM)</h2>
+        <p><i>Diposting di BlogChece — 29 Maret 2026</i></p>
+      </header>
+      <p>Personal Knowledge Management (PKM) itu cara ngatur catatan, ide, sama materi belajar biar gampang dicari lagi. Dengan catatan rapi, mahasiswa bisa belajar lebih cepet dan nggak perlu ngulang materi dari awal tiap ngerjain tugas.</p>
+    </article>
+
+    <!-- SIDEBAR -->
+    <aside>
+      <h3>Artikel Populer</h3>
+      <ul>
+        <li><a href="#">Pentingnya Me Time di Tengah Kesibukan</a></li>
+        <li><a href="#">Fase Rajin yang Datang Setiap 2 Minggu Sekali</a></li>
+        <li><a href="#">Pentingnya Personal Knowledge Management (PKM)</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 BlogChece. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
