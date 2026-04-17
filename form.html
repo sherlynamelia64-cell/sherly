@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir Pendaftaran Siswa</title>
+</head>
+
+<body>
+
+<h2>FORMULIR PENDAFTARAN SISWA</h2>
+
+<form method="post">
+
+<fieldset>
+<legend>Data Pribadi</legend>
+
+<p>
+Nama Lengkap : <br>
+<input type="text" name="nama" required>
+</p>
+
+<p>
+NIM : <br>
+<input type="text" name="nim" required>
+</p>
+
+<p>
+Email : <br>
+<input type="email" name="email" required>
+</p>
+
+<p>
+No HP : <br>
+<input type="tel" name="hp" pattern="[0-9]{10,13}" required>
+</p>
+
+<p>
+Tanggal Lahir : <br>
+<input type="date" name="tgl_lahir" required>
+</p>
+
+<p>
+Jenis Kelamin : <br>
+<input type="radio" name="jk" value="Laki-laki"> Laki-laki
+<input type="radio" name="jk" value="Perempuan"> Perempuan
+</p>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Data Akademik</legend>
+
+<p>
+Program Studi : <br>
+<select name="nama_jurusan">
+<option>--Pilih Program Studi--</option>
+<option>S1 Teknik Informatika</option>
+<option>S1 Teknik Komputer dan Jaringan</option>
+<option>D3 Manajemen Informatika</option>
+</select>
+</p>
+
+<p>
+Asal Sekolah : <br>
+<input type="checkbox" name="hobi1"> SMA <br>
+<input type="checkbox" name="hobi2"> SMK <br>
+<input type="checkbox" name="hobi3"> MA
+</p>
+
+<p>
+Upload Foto : <br>
+<input type="file" name="foto">
+</p>
+
+<p>
+Alamat : <br>
+<textarea name="alamat" rows="4" cols="40"></textarea>
+</p>
+
+</fieldset>
+
+<br>
+
+<input type="submit" value="DAFTAR">
+<input type="reset" value="RESET">
+
+</form>
+
+</body>
+</html>
